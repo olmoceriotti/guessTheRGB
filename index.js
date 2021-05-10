@@ -55,7 +55,7 @@ for(i=0; i < document.querySelectorAll(".diff").length; i++){
 
 
 start.addEventListener("click", function(){
-    if (level != 0){
+    if (level != 0 && isStarted != true){
         points = 0
         for(i = 0; i < 6; i++){
             element = document.querySelector(".color" + i)
