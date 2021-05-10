@@ -1,0 +1,62 @@
+/* Body */
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #564a4a;
+}
+
+.container{
+    padding: 1rem;
+}
+
+/* App */
+
+.title{
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+.box{
+    border: 3px #564a4a solid;
+    text-align:center;
+    padding: 2rem 0;
+    font-size: 1rem;
+}
+
+.diffMenu{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.diff{
+   border: 3px #564a4a solid;
+   padding: 1rem;
+}
+
+
+.colors{
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.color{
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+
+.boxStyle1{
+    border: 3px #564a4a dashed;
+}
+
+.buttonClicked{
+    background-color: #564a4a;
+    color: white;
+}
